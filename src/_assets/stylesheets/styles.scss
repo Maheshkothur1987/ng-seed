@@ -1,3 +1,111 @@
-@import "core";
+/* Styles go here */
 
-@import "header";
+.body {
+
+  background-image:url("http://api.ning.com/files/BAcPAB7hbbjIrAThIrnyRCXHOv7qUN*8eKCNDypaTJ4oSBp4g7fBXoIEQZ9IyeKhV-zOZj-7864hMHjoww*Ill0xnKpR9v3Q/MovieLounge.jpg");
+  color:#000305;
+
+  font-size:87.5%;
+
+  font-family:Arial,"Lucida Sans Unicode";
+
+  line-height:1.5;
+
+  text-align:left;
+
+}
+
+
+
+a {
+
+  text-decoration:none;
+
+}
+
+a:link, a:visited {
+}
+
+a:hover,a:active{
+}
+
+
+.body {
+
+  margin:0 auto;
+
+  width:70%;
+
+  clear:both;
+
+}
+
+
+.mainHeader img {
+
+  width:30% ;
+
+  height:auto;
+
+  margin:2% 0;
+
+}
+
+.mainHeader nav {
+
+  background-color: #666;
+
+  height:40px;
+
+  border-radius:5px;
+
+  -moz-border-radius:5px;
+
+  -webkit-border-radius:5px;
+
+}
+
+.marginHeader nav ul {
+
+  list-style:none;
+
+  margin:auto;
+
+}
+
+.mainHeader ul li {
+
+  float:left;
+
+  display:inline;
+
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+
+  color:#FFF;
+
+  display:inline-block;
+
+  padding:10px 25px;
+  height:20px;
+
+}
+
+.mainHeader nav a :hover , .mainHeader nav a:active , .mainHeader nav .active  a:link, .mainHeader nav .active a:visited{
+
+  background-color:red;
+  text-shadow:none;
+
+}
+
+.mainHeader nav ul li a {
+
+  border-radius:9px;
+
+  -moz-border-radius:9px;
+
+  -webkit-border-radius:9px;
+
+}
+

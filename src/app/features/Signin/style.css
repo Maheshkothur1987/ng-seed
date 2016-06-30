@@ -1,0 +1,64 @@
+/* Styles go here */
+
+body {
+  margin: 0 auto;
+  background-image:url("https://cdn2.vox-cdn.com/thumbor/XTl3AIHjeN6XNTX25APnbWggiFQ=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6701953/Independence-Day-Resurgence-Movie-Wallpaper-10.0.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 720px;
+  color:red;
+  font-size:20px;
+  overflow-y:scroll;
+}
+
+
+.container {
+  width: 500px;
+  height: 400px;
+  text-align:center;
+  background-color: white;
+  border-radius:4px;
+  margin: 0 auto;
+  margin-top:150px;
+}
+.container img{
+  width:120px;
+  height:120px;
+  margin-top:-60px;
+  margin-bottom:30px;
+  margin: 0 auto;
+}
+input[type="text"],input[type="text"],input[type="password"] {
+  margin-top:20px;
+  height:45px;
+  width:300px;
+  font-size:10px;
+  margin-bottom:20px;
+  background-color:#fff;
+  padding-left:15px;
+}
+
+.btnSignin{
+  width:200px;
+  padding:10px 30px;
+  color:#fff;
+  border-radius:4px;
+  border:none;
+  background-color:#2ECC71;
+  border-bottom:4px solid black;
+  margin-bottom:10px;
+}
+.btnSignup{
+  width:200px;
+  padding:10px 30px;
+  color:#fff;
+  border-radius:4px;
+  border:none;
+  background-color:#2ECC71;
+  border-bottom:4px solid black;
+  margin-bottom:10px;
+}
+a{
+  padding-left:200px;
+  text-decoration:none;
+  font-size:20px;
+}
